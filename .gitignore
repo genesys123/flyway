@@ -1,0 +1,10 @@
+.gradle
+.idea
+.classpath
+.project
+.settings/
+.vscode/
+bin/
+build/
+gradle.properties
+**.swp

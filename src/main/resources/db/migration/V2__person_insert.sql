@@ -1,0 +1,1 @@
+INSERT INTO `person` VALUES (1, 'Jose', 'Morales'), (2, 'Eric', 'Haddad')

@@ -1,0 +1,60 @@
+Initialized native services in: C:\Users\Pariwesh\.gradle\native
+Initialized jansi services in: C:\Users\Pariwesh\.gradle\native
+The client will now receive all logging from the daemon (pid: 22308). The daemon log file: C:\Users\Pariwesh\.gradle\daemon\7.5\daemon-22308.out.log
+Starting 10th build in daemon [uptime: 56 mins 20.823 secs, performance: 100%, non-heap usage: 30% of 256 MiB]
+Using 4 worker leases.
+Now considering [H:\training\monica\demos\spring-boot-flyway] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+Now considering [H:\training\monica\demos\spring-boot-flyway] as hierarchies to watch
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'H:\training\monica\demos\spring-boot-flyway\settings.gradle'.
+Projects loaded. Root project using build file 'H:\training\monica\demos\spring-boot-flyway\build.gradle'.
+Included projects: [root project 'spring-boot-flyway']
+
+> Configure project :
+Evaluating root project 'spring-boot-flyway' using build file 'H:\training\monica\demos\spring-boot-flyway\build.gradle'.
+Applying dependency management to configuration 'annotationProcessor' in project 'spring-boot-flyway'
+Applying dependency management to configuration 'apiElements' in project 'spring-boot-flyway'
+Applying dependency management to configuration 'archives' in project 'spring-boot-flyway'
+Applying dependency management to configuration 'bootArchives' in project 'spring-boot-flyway'
+Applying dependency management to configuration 'compileClasspath' in project 'spring-boot-flyway'
+Applying dependency management to configuration 'compileOnly' in project 'spring-boot-flyway'
+Applying dependency management to configuration 'default' in project 'spring-boot-flyway'
+Applying dependency management to configuration 'developmentOnly' in project 'spring-boot-flyway'
+Applying dependency management to configuration 'implementation' in project 'spring-boot-flyway'
+Applying dependency management to configuration 'mainSourceElements' in project 'spring-boot-flyway'
+Applying dependency management to configuration 'productionRuntimeClasspath' in project 'spring-boot-flyway'
+Applying dependency management to configuration 'runtimeClasspath' in project 'spring-boot-flyway'
+Applying dependency management to configuration 'runtimeElements' in project 'spring-boot-flyway'
+Applying dependency management to configuration 'runtimeOnly' in project 'spring-boot-flyway'
+Applying dependency management to configuration 'testAnnotationProcessor' in project 'spring-boot-flyway'
+Applying dependency management to configuration 'testCompileClasspath' in project 'spring-boot-flyway'
+Applying dependency management to configuration 'testCompileOnly' in project 'spring-boot-flyway'
+Applying dependency management to configuration 'testImplementation' in project 'spring-boot-flyway'
+Applying dependency management to configuration 'testResultsElementsForTest' in project 'spring-boot-flyway'
+Applying dependency management to configuration 'testRuntimeClasspath' in project 'spring-boot-flyway'
+Applying dependency management to configuration 'testRuntimeOnly' in project 'spring-boot-flyway'
+All projects evaluated.
+Task name matched 'flywayMigrate'
+Selected primary task 'flywayMigrate' from project :
+Tasks to be executed: [task ':flywayMigrate']
+Tasks that were excluded: []
+Resolve mutations for :flywayMigrate (Thread[included builds,5,main]) started.
+Resolve mutations for :flywayMigrate (Thread[included builds,5,main]) completed. Took 0.0 secs.
+:flywayMigrate (Thread[Execution worker,5,main]) started.
+
+> Task :flywayMigrate FAILED
+Caching disabled for task ':flywayMigrate' because:
+  Build cache is disabled
+Task ':flywayMigrate' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolving global dependency management for project 'spring-boot-flyway'
+Excluding []
+Excluding [com.google.protobuf:protobuf-java]
+Excluding []
+Excluding []
+Database: jdbc:mysql://localhost:3306/flyway_demo (MySQL 8.0)
+:flywayMigrate (Thread[Execution worker,5,main]) completed. Took 0.921 secs.
+1 actionable task: 1 executed
+Watched directory hierarchies: [H:\training\monica\demos\spring-boot-flyway]
